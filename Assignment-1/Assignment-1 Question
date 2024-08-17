@@ -1,0 +1,3 @@
+The goal of this assignment is to implement matrix multiplication. Assume that the matrices are represented in Python using some kind of data type over which you can iterate in two dimensions. At a very basic level, you can think of that as a "list of lists" or a Python list that contains other Python lists. Therefore for example, you can access A[i][j] to get the element at location i, j of the matrix.
+
+You are provided with a "test suite" - a script that, when run, will test your matrix multiplication code against many examples. This could include invalid inputs, missing data etc., and the function that you write should respond correctly in all cases. If in doubt, read the test suite to understand how you are expected to respond.
