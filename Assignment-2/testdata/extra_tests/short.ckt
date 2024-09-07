@@ -1,0 +1,6 @@
+.circuit
+V1 1 GND dc 10
+R1 1 2 0
+R2 2 GND 10
+.end
+# This is a short circuit with R1 offering no resistance

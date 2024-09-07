@@ -1,0 +1,6 @@
+.circuit
+V1 1 GND dc 10
+R1 1 2 1
+R1 2 3 2
+.end
+# This is a open circuit with node 3 not connected anywhere

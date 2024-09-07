@@ -1,0 +1,8 @@
+.circuit
+V1 1 GND dc 10
+V2 2 GND dc 5
+V3 3 Gnd dc 2 
+R1 1 2 10
+R2 3 GND 10
+.end
+#This circuit has multiple voltage sources

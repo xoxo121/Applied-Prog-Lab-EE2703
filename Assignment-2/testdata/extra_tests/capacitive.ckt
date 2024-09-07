@@ -1,0 +1,6 @@
+.circuit
+V1 1 GND dc 30
+C1 1 2 1
+R1 2 GND 5
+.end
+# This is a circuit with a capacitor in it

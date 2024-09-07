@@ -1,0 +1,5 @@
+.circuit
+V1 1 GND dc A
+R1 GND 1 B
+.end
+# This circuit has non-numeric value for the components
