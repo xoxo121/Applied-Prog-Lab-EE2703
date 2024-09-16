@@ -1,0 +1,5 @@
+This assignment is based on trying to estimate various physical parameters using raw data (from the datasets) and Planck's formula: https://en.wikipedia.org/wiki/Planck_constant
+
+In particular, the datasets correspond to the spectral radiance per unit wavelength (wavelength expressed in metres). At first, assume that you do not know any of the parameters T, c, h or k. Try to estimate their values by curve fitting the data. For this you first need to create a Python function that implements the given equation.
+
+The estimates from this are likely to be very poor. As a next step, do "partial application" to create simpler functions that have fewer unknowns (assume values for some of the parameters), so that there is only one unknown at a time. Estimate the parameters and report on your findings.
