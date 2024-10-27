@@ -1,0 +1,11 @@
+The goal of this problem is to demonstrate use of some optimization technique such as simulated annealing in order to solve a hard optimization problem. 
+
+Note: if you have used a different format than the updated one that was given for Assignment 4 and have already optimized a keyboard layout, you can submit this provided it is well documented (documentation should also be brief and easy to understand!). If not, follow the steps below:
+
+Steps for optimization problem:
+
+Start with the qwerty layout that was given as an example in the updated A4 assignment.
+Keep the same locations ((x, y) coordinates) for the keys, but allow each key to be swapped or moved into a different location. With this as the basic "move", write an optimization routine to test the quality of different keyboard layouts.
+Your function should be able to take in any arbitrary string (can be a multi-line string) as text, and go through and optimize the layout for that string. 
+You should provide visualizations for the final keyboard layout, and also to show how the total distance cost decreases as you optimize.
+The main problem statement only requires you to optimize for the qwerty locations. If you implement other possible keyboard optimizations, you can briefly describe them.
